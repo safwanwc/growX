@@ -5,9 +5,9 @@ import Button from "../common/button";
 const Spotlight = () => {
   return (
     <section id="spotlight">
-      <div className="wrapper flex items-center">
+      <div className="wrapper py-[50px] flex items-center">
         <div className="left w-1/2">
-          <h1 className="mt-[120px] text-[100px] font-poppins font-semibold leading-[1.1] relative">
+          <h1 className=" text-[100px] font-poppins font-semibold leading-[1.1] relative">
             Unlock Your{" "}
             <span className="font-semibold text-[#FE4A0F]">
               Online

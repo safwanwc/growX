@@ -28,7 +28,7 @@ const NAVS = [
 
 const Header = () => {
   return (
-    <header className="sticky bg-white top-0 left-0 w-full flex justify-between items-center py-4 wrapper">
+    <header className="sticky z-[100] bg-white top-0 left-0 w-full flex justify-between items-center py-4 wrapper">
       <h2>
         <Link href="/">
           <Image src="/images/growx.png" alt="GrowX" width={100} height={100} />
